@@ -16,8 +16,8 @@
 #define SCREEN_ADDRESS 0x3C ///< See datasheet for Address; 0x3D for 128x64, 0x3C for 128x32
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 unsigned long temperatureDelay = 1000;
-const char *ssid = "Airel_9891989587";
-const char *password = "air14211";
+const char *ssid = "your SSID";
+const char *password = "your PASSWORD";
 
 WebServer server(80);
 
